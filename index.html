@@ -4,9 +4,26 @@
         <title>Kelleena and I</title>
         <link rel="stylesheet" type="text/css" href="./style.css">
     </head>
-    <body>
-        <h1>Kelleena Kablia Xiong</h1>
+    <div class="tab">
+        <button class="tablinks" onclick="openTab(event, 'Main')">Main</button>
+        <button class="tablinks" onclick="openTab(event, 'Journal')">Journal</button>
+        <button class="tablinks" onclick="openTab(event, 'Gallery')">Gallery</button>
+      </div>
+      
+      <!-- Tab content -->
+      <div id="Main" class="tabcontent">
+        <h1>Kelleena and I</h1>
         <p>This page is dedicated to the one and only Kelleena Kablia Xiong</p>
+      </div>
+      
+      <div id="Journal" class="tabcontent">
+        <h3>Journal</h3>
+        <p>Here lies our stories and thoughts.</p>
+      </div>
+      
+      <div id="Tokyo" class="tabcontent">
+        <h3>Gallery</h3>
+        <p>The best pictures on the planet.</p>
         <br>
         <img id="pic" src="Screenshot_2.png" style="width: 300px;" class="center"/>
         <p>Traditional Hmong Dress</p>
@@ -19,5 +36,6 @@
         <br>
         <img id="date" src="first date.jpg" style="width: 382px;" class="center"/>
         <p>First Date!</p>
-    </body>
+      </div>
+    
 </html>
